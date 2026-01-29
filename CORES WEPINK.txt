@@ -1,0 +1,21 @@
+CORES WEPINK
+
+https://wepink.vtexassets.com/assets/vtex.file-manager-graphql/images/1cccedbf-7a1e-43d0-8054-98a7f2a6e90a___f78518fdf09d38f9a9936905c860c281.webp
+
+https://wepink.vtexassets.com/assets/vtex.file-manager-graphql/images/4e3f81b1-4440-4e9b-b60d-0e2d170550e2___38572dd8b5b57855f57c95049d7f8f86.webp
+
+npx wrangler d1 execute 0198e28e-d2a5-78c5-96ad-87fd28bcb16c --command "SELECT name FROM sqlite_master WHERE type='table';"
+
+✅ Successfully created DB 'wepink-prod' in region ENAM
+Created your new D1 database.
+
+To access your new D1 Database in your Worker, add the following snippet to your configuration file:
+{
+  "d1_databases": [
+    {
+      "binding": "wepink_prod",
+      "database_name": "wepink-prod",
+      "database_id": "254ae57d-f335-4d27-999f-24497467de0a"
+    }
+  ]
+}

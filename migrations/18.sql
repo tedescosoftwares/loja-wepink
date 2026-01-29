@@ -1,0 +1,20 @@
+
+INSERT INTO categories (name, description, is_active, created_at, updated_at) VALUES 
+('CERVEJAS ANTARCTICA', 'Cervejas da marca Antarctica em diversos tamanhos e tipos', 1, datetime('now'), datetime('now')),
+('CERVEJAS AMSTEL', 'Cervejas da marca Amstel importadas e nacionais', 1, datetime('now'), datetime('now')),
+('CERVEJAS STELLA ARTOIS', 'Cervejas premium da marca Stella Artois', 1, datetime('now'), datetime('now')),
+('CERVEJAS BECKS', 'Cervejas da marca Becks importadas', 1, datetime('now'), datetime('now')),
+('CERVEJAS HEINEKEN', 'Cervejas da marca Heineken em lata e long neck', 1, datetime('now'), datetime('now')),
+('CERVEJAS BUDWEISER', 'Cervejas da marca Budweiser americana', 1, datetime('now'), datetime('now')),
+('CERVEJAS SKOL', 'Cervejas da marca Skol em diversos formatos', 1, datetime('now'), datetime('now')),
+('CERVEJAS BRAHMA', 'Cervejas da marca Brahma tradicionais e especiais', 1, datetime('now'), datetime('now')),
+('CHOPP BARRIL', 'Chopps de barril gelados e frescos', 1, datetime('now'), datetime('now')),
+('CERVEJAS DIVERSAS', 'Outras marcas e tipos de cervejas artesanais e especiais', 1, datetime('now'), datetime('now')),
+('DESTILADOS', 'Bebidas destiladas, cachaças, vodkas, whiskys e licores', 1, datetime('now'), datetime('now')),
+('ÁGUA/ÁGUA DE COCO/SUCOS', 'Águas minerais, águas de coco e sucos naturais e industrializados', 1, datetime('now'), datetime('now')),
+('ENERGÉTICOS', 'Bebidas energéticas de diversas marcas', 1, datetime('now'), datetime('now')),
+('ISOTÔNICOS', 'Bebidas isotônicas para hidratação e reposição', 1, datetime('now'), datetime('now')),
+('REFRIGERANTES COCA-COLA', 'Refrigerantes da marca Coca-Cola e derivados', 1, datetime('now'), datetime('now')),
+('REFRIGERANTES ANTÁRCTICA', 'Refrigerantes da marca Antárctica incluindo Guaraná', 1, datetime('now'), datetime('now')),
+('REFRIGERANTES PEPSI', 'Refrigerantes da marca Pepsi e produtos relacionados', 1, datetime('now'), datetime('now')),
+('REFRIGERANTES DIVERSOS', 'Outras marcas de refrigerantes e bebidas gaseificadas', 1, datetime('now'), datetime('now'));

@@ -1,0 +1,1 @@
+-- This will restore the previous logo URL if needed (manual rollback required)

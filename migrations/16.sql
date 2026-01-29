@@ -1,0 +1,1 @@
+INSERT OR REPLACE INTO site_settings (setting_key, setting_value, updated_at) VALUES ('site_logo_url', '', CURRENT_TIMESTAMP);

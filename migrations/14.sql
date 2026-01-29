@@ -1,0 +1,1 @@
+UPDATE site_settings SET setting_value = '' WHERE setting_key = 'site_logo_url' AND setting_value LIKE '%gocache%';

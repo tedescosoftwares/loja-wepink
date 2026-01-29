@@ -1,0 +1,1 @@
+DELETE FROM site_settings WHERE setting_key = 'site_logo_url';
