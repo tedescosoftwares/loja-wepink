@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "@getmocha/users-service/react";
 import { CartProvider } from "@/react-app/hooks/useCart";
+import Placeholder from "@/react-app/pages/Placeholder";
+import { Navigate } from "react-router-dom";
 
 import HomePage from "@/react-app/pages/Home";
 import AdminPassword from "@/react-app/pages/AdminPassword";
@@ -31,6 +33,25 @@ export default function App() {
         <Router>
           <Routes>
             <Route path="/" element={<HomePage />} />
+
+
+            {/* Aliases de categoria (não dá 404 agora) */}
+            <Route path="/perfumaria" element={<Placeholder />} />
+            <Route path="/body-splash" element={<Placeholder />} />
+            <Route path="/corpo" element={<Placeholder />} />
+            <Route path="/skincare" element={<Placeholder />} />
+            <Route path="/kits" element={<Placeholder />} />
+            <Route path="/mais-vendidos" element={<Placeholder />} />
+            <Route path="/novidades" element={<Placeholder />} />
+            <Route path="/ofertas" element={<Placeholder />} />
+
+            {/* Institucionais (não dá 404 agora) */}
+            <Route path="/sobre" element={<Placeholder />} />
+            <Route path="/ajuda" element={<Placeholder />} />
+
+            {/* Atalhos que redirecionam pras rotas reais que você já tem */}
+            <Route path="/rastrear" element={<Navigate to="/order-tracking" replace />} />
+            <Route path="/pedido-aprovado" element={<Navigate to="/order-approved" replace />} />
 
             {/* ✅ ROTA DO PRODUTO */}
             <Route path="/produto/:id" element={<ProductPage />} />
