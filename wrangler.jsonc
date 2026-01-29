@@ -14,8 +14,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "0198e28e-d2a5-78c5-96ad-87fd28bcb16c",
-      "database_id": "0198e28e-d2a5-78c5-96ad-87fd28bcb16c",
+      "database_name": "loja-wepink",
+      "database_id": "75415aed-f591-479d-b58d-a249e73ce520"
     },
   ],
 }
