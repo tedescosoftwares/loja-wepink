@@ -147,7 +147,7 @@ export default function Checkout() {
     return `${cleanValue.slice(0, 5)}-${cleanValue.slice(5, 8)}`;
   };
 
-//HJDSHJHJKHDJKFSFD
+//HJDSHJHJKSDSADHDJKFSFD
 
   const validateCoupon = async () => {
     if (!formData.coupon_code.trim()) {
