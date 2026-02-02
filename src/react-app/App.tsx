@@ -44,6 +44,8 @@ export default function App() {
             <Route path="/mais-vendidos" element={<Placeholder />} />
             <Route path="/novidades" element={<Placeholder />} />
             <Route path="/ofertas" element={<Placeholder />} />
+            <Route path="/wepink/ofertas" element={<Placeholder />} />
+            <Route path="/wepink" element={<Placeholder />} />
 
             {/* Institucionais (não dá 404 agora) */}
             <Route path="/sobre" element={<Placeholder />} />
